@@ -1,0 +1,74 @@
+:root {
+	--c-beige: #ece6d5;
+	--c-pink: #ece6d5;
+	--c-black: #000;
+	--c-black-60: rgba(0, 0, 0, 0.6);
+	--c-blue: #006eb5;
+	--c-blue-dark: #005994;
+	--c-gray: #d4d8da;
+	--c-gray-dark: #a9b1b5;
+	--c-gray-darker: #494949;
+	--c-gray-light: #f3f3f3;
+	--c-gray-light-transparent: rgba(151, 151, 151, 0.8);
+	--c-gray-lighter-transparent: rgba(255, 255, 254, 0.8);
+	--c-red: #d0232a;
+	--c-red-dark: #a91f25;
+	--c-white: #fff;
+}
+
+.lpeCElement {
+	left: auto !important;
+	position: relative !important;
+	top: auto !important;
+}
+
+.lpeCElement.__myu-form_disclaimer__ {
+	max-width: 410px;
+	width: 100% !important;
+}
+
+.lpeCElement .lpContentsItem.richTextSpan {
+	display: block;
+	margin-left: 15px;
+	margin-top: 25px;
+}
+
+.mktoForm .mktoFormRow {
+	margin-top: 15px;
+}
+
+.mktoForm input[type='text'].mktoField,
+.mktoForm input[type='email'].mktoEmailField,
+.mktoForm input[type='tel'].mktoTelField,
+.mktoForm select.mktoField {
+	border: 1px solid var(--c-gray);
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple button.mktoButton {
+	background: var(--c-red);
+	border: none;
+	color: var(--c-white);
+	padding: 10px 25px;
+	text-transform: uppercase;
+	transition: background 300ms;
+}
+
+.mktoButtonWrap.mktoSimple {
+	margin-left: 0 !important;
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple button.mktoButton:hover {
+	background: var(--c-black);
+	border: none;
+	text-decoration: underline;
+}
+
+.lpeCElement .lpContentsItem.richTextSpan {
+	margin-left: 0 !important;
+}
+
+.mktoForm.mktoHasWidth {
+	padding: 0;
+}

@@ -85,7 +85,7 @@ width: calc(100% - 125px) !important;
 .mktoField.mktoTextField.mktoHasWidth,
 .mktoField.mktoEmailField.mktoHasWidth,
 .mktoField.mktoTelField.mktoHasWidth  {
-	width: calc(100% - 130px) !important;
+	width: calc(100% - 100px) !important;
 }
 }
 

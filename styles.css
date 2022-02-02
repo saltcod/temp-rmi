@@ -132,3 +132,7 @@ select.mktoField {
 	font-size: 16px !important;
 	height: 43px !important;
 }
+
+.lpeCElement.__myu-form_disclaimer__ {
+	max-width: none !important;
+}

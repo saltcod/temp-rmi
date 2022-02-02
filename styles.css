@@ -1,135 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
-	@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+:root {
+	--c-beige: #ece6d5;
+	--c-black: #000;
+	--c-black-60: rgba(0, 0, 0, 0.6);
+	--c-blue: #006eb5;
+	--c-blue-dark: #005994;
+	--c-gray: #d4d8da;
+	--c-gray-dark: #a9b1b5;
+	--c-gray-darker: #494949;
+	--c-gray-light: #f3f3f3;
+	--c-gray-light-transparent: rgba(151, 151, 151, 0.8);
+	--c-gray-lighter-transparent: rgba(255, 255, 254, 0.8);
+	--c-red: #d0232a;
+	--c-red-dark: #a91f25;
+	--c-white: #fff;
+}
 
-	:root {
-		--c-beige: #ece6d5;
-		--c-black: #000;
-		--c-black-60: rgba(0, 0, 0, 0.6);
-		--c-blue: #006eb5;
-		--c-blue-dark: #005994;
-		--c-gray: #d4d8da;
-		--c-gray-dark: #a9b1b5;
-		--c-gray-darker: #494949;
-		--c-gray-light: #f3f3f3;
-		--c-gray-light-transparent: rgba(151, 151, 151, 0.8);
-		--c-gray-lighter-transparent: rgba(255, 255, 254, 0.8);
-		--c-red: #d0232a;
-		--c-red-dark: #a91f25;
-		--c-white: #fff;
-	}
+body {
+	font-family: Lato, Helvetica, Arial, sans-serif !important;
+}
 
-	body {
-		font-family: Lato, Helvetica, Arial, sans-serif !important;
-	}
+.mktoForm div,
+.mktoForm span,
+.mktoForm label,
+.mktoForm p {
+	font-family: Lato, "sans-serif" !important;
+}
 
-	.mktoForm div,
-	.mktoForm span,
-	.mktoForm label,
-	.mktoForm p {
-		font-family: Lato, "sans-serif" !important;
-	}
+.lpeCElement {
+	left: auto !important;
+	position: relative !important;
+	top: auto !important;
+}
 
-	.lpeCElement {
-		left: auto !important;
-		position: relative !important;
-		top: auto !important;
-	}
+.lpeCElement.__myu-form_disclaimer__ {
+	max-width: 120px;
+	width: 100% !important;
+}
 
-	.lpeCElement.__myu-form_disclaimer__ {
-		max-width: 120px;
-		width: 100% !important;
-	}
+.lpeCElement .lpContentsItem.richTextSpan {
+	display: block;
+	margin-left: 15px;
+	margin-top: 25px;
+}
 
-	.lpeCElement .lpContentsItem.richTextSpan {
-		display: block;
-		margin-left: 15px;
-		margin-top: 25px;
-	}
+.mktoForm .mktoFormRow {
+	margin-top: 0;
+}
 
-	.mktoForm .mktoFormRow {
-		margin-top: 0;
-	}
+.mktoForm .mktoFormRow .mktoFieldDescriptor.mktoFormCol {
+margin-top: 15px;
+}
 
-  .mktoForm .mktoFormRow .mktoFieldDescriptor.mktoFormCol {
-    margin-top: 15px;
-  }
+.mktoFieldWrap.mktoRequiredField {
+align-items: center;
+display: flex;
+}
 
-  .mktoFieldWrap.mktoRequiredField {
-    align-items: center;
-    display: flex;
-  }
+.mktoLabel.mktoHasWidth {
+width: 120px !important;
+}
+.mktoForm .mktoFormCol {
+float: none !important;
+}
+.mktoForm .mktoFieldWrap {
+float: none !important;
+}
 
-  .mktoLabel.mktoHasWidth {
-    width: 120px !important;
-  }
-  .mktoForm .mktoFormCol {
-    float: none !important;
-  }
-  .mktoForm .mktoFieldWrap {
-    float: none !important;
-  }
+.mktoField.mktoHasWidth,
+.mktoField.mktoTextField.mktoHasWidth,
+.mktoField.mktoEmailField.mktoHasWidth,
+.mktoField.mktoTelField.mktoHasWidth  {
+width: calc(100% - 125px) !important;
+}
 
-  .mktoField.mktoHasWidth,
-  .mktoField.mktoTextField.mktoHasWidth,
-  .mktoField.mktoEmailField.mktoHasWidth,
-  .mktoField.mktoTelField.mktoHasWidth  {
-    width: calc(100% - 190px) !important;
-  }
-
-  @media (max-width: 374px) {
-    .mktoField.mktoHasWidth,
-    .mktoField.mktoTextField.mktoHasWidth,
-    .mktoField.mktoEmailField.mktoHasWidth,
-    .mktoField.mktoTelField.mktoHasWidth  {
-      width: calc(100% - 240px) !important;
-    }
-  }
-
+@media (max-width: 374px) {
+.mktoField.mktoHasWidth,
+.mktoField.mktoTextField.mktoHasWidth,
+.mktoField.mktoEmailField.mktoHasWidth,
+.mktoField.mktoTelField.mktoHasWidth  {
+	width: calc(100% - 130px) !important;
+}
+}
 
 
-	.mktoForm input[type="text"].mktoField,
-	.mktoForm input[type="email"].mktoEmailField,
-	.mktoForm input[type="tel"].mktoTelField,
-	.mktoForm select.mktoField {
-		border: 1px solid var(--c-gray);
-		margin-top: 10px;
-		padding: 10px;
-	}
 
-	.mktoForm .mktoButtonWrap.mktoSimple button.mktoButton {
-		background: var(--c-red);
-		border: none;
-		color: var(--c-white);
-		padding: 10px 25px;
-		text-transform: uppercase;
-		transition: background 300ms;
-	}
+.mktoForm input[type="text"].mktoField,
+.mktoForm input[type="email"].mktoEmailField,
+.mktoForm input[type="tel"].mktoTelField,
+.mktoForm select.mktoField {
+	border: 1px solid var(--c-gray);
+	margin-top: 10px;
+	padding: 10px;
+}
 
-	.mktoButtonWrap.mktoSimple {
-    display: block;
-		margin-left: 10px !important;
-    margin-top: 25px;
-	}
+.mktoForm .mktoButtonWrap.mktoSimple button.mktoButton {
+	background: var(--c-red);
+	border: none;
+	color: var(--c-white);
+	padding: 10px 25px;
+	text-transform: uppercase;
+	transition: background 300ms;
+}
 
-	.mktoForm .mktoButtonWrap.mktoSimple button.mktoButton:hover {
-		background: var(--c-black);
-		border: none;
-		text-decoration: underline;
-	}
+.mktoButtonWrap.mktoSimple {
+display: block;
+	margin-left: 10px !important;
+margin-top: 25px;
+}
 
-	.lpeCElement .lpContentsItem.richTextSpan {
-		margin-left: 10px !important;
-	}
+.mktoForm .mktoButtonWrap.mktoSimple button.mktoButton:hover {
+	background: var(--c-black);
+	border: none;
+	text-decoration: underline;
+}
 
-	.mktoForm.mktoHasWidth {
-		padding: 0;
-	}
+.lpeCElement .lpContentsItem.richTextSpan {
+	margin-left: 10px !important;
+}
 
-	select.mktoField {
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		appearance: none;
-		background: none;
-		font-size: 16px !important;
-		height: 43px !important;
-	}
+.mktoForm.mktoHasWidth {
+	padding: 0;
+}
+
+select.mktoField {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: none;
+	font-size: 16px !important;
+	height: 43px !important;
+}

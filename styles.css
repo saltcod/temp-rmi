@@ -20,6 +20,9 @@
 body {
 	font-family: Lato, Helvetica, Arial, sans-serif !important;
 }
+.mktoForm {
+	width: 100% !important;
+}
 
 .mktoForm div,
 .mktoForm span,
@@ -64,7 +67,8 @@ width: 120px !important;
 .mktoForm .mktoFormCol {
 float: none !important;
 }
-.mktoForm .mktoFieldWrap {
+.mktoForm .mktoFieldWrap,
+.mktoForm .mktoField{
 float: none !important;
 }
 

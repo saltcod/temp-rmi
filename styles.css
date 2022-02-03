@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 :root {
 	--c-beige: #ece6d5;
@@ -29,7 +29,7 @@ body {
 .mktoForm span,
 .mktoForm label,
 .mktoForm p {
-	font-family: Lato, "sans-serif" !important;
+	font-family: Lato, 'sans-serif' !important;
 }
 
 .lpeCElement {
@@ -54,46 +54,44 @@ body {
 }
 
 .mktoForm .mktoFormRow .mktoFieldDescriptor.mktoFormCol {
-margin-top: 15px;
+	margin-top: 15px;
 }
 
-.mktoFieldWrap.mktoRequiredField {
-align-items: center;
-display: flex;
+.mktoFieldWrap {
+	align-items: center;
+	display: flex;
 }
 
 .mktoLabel.mktoHasWidth {
-width: 120px !important;
+	width: 120px !important;
 }
 .mktoForm .mktoFormCol {
-float: none !important;
+	float: none !important;
 }
 .mktoForm .mktoFieldWrap,
-.mktoForm .mktoField{
-float: none !important;
+.mktoForm .mktoField {
+	float: none !important;
 }
 
 .mktoField.mktoHasWidth,
 .mktoField.mktoTextField.mktoHasWidth,
 .mktoField.mktoEmailField.mktoHasWidth,
-.mktoField.mktoTelField.mktoHasWidth  {
-width: calc(100% - 125px) !important;
+.mktoField.mktoTelField.mktoHasWidth {
+	width: calc(100% - 125px) !important;
 }
 
 @media (max-width: 374px) {
-.mktoField.mktoHasWidth,
-.mktoField.mktoTextField.mktoHasWidth,
-.mktoField.mktoEmailField.mktoHasWidth,
-.mktoField.mktoTelField.mktoHasWidth  {
-	width: calc(100% - 100px) !important;
+	.mktoField.mktoHasWidth,
+	.mktoField.mktoTextField.mktoHasWidth,
+	.mktoField.mktoEmailField.mktoHasWidth,
+	.mktoField.mktoTelField.mktoHasWidth {
+		width: calc(100% - 100px) !important;
+	}
 }
-}
 
-
-
-.mktoForm input[type="text"].mktoField,
-.mktoForm input[type="email"].mktoEmailField,
-.mktoForm input[type="tel"].mktoTelField,
+.mktoForm input[type='text'].mktoField,
+.mktoForm input[type='email'].mktoEmailField,
+.mktoForm input[type='tel'].mktoTelField,
 .mktoForm select.mktoField {
 	border: 1px solid var(--c-gray);
 	margin-top: 10px;
@@ -110,9 +108,9 @@ width: calc(100% - 125px) !important;
 }
 
 .mktoButtonWrap.mktoSimple {
-display: block;
+	display: block;
 	margin-left: 10px !important;
-margin-top: 25px;
+	margin-top: 25px;
 }
 
 .mktoForm .mktoButtonWrap.mktoSimple button.mktoButton:hover {

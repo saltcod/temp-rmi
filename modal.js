@@ -1,5 +1,5 @@
 document.addEventListener('click', () => {
-		setTimeout(() => {
-			window.parent.postMessage(document.body.scrollHeight, 'https://nustdmsb.wpengine.com/');
-		}, 200);
-	})
+	setTimeout(() => {
+		window.parent.postMessage(document.body.scrollHeight, '*');
+	}, 200);
+})

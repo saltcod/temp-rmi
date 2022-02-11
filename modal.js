@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	if ( selects.length < 0 ) {
 		return;
 	}
+	console.log(selects);
 	selects.forEach(select => {
 		select.addEventListener('change', () => {
 			setTimeout(() => {

@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+	console.log('loaded');
 	const selects = document.querySelectorAll('.mktoFormRow select');
 	if ( selects.length < 0 ) {
 		return;

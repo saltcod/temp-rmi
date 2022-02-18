@@ -141,8 +141,8 @@ select.mktoField {
 	appearance: none;
 	background: none;
 	font-size: 16px !important;
-	height: 30px !important;
-	padding: 3px 8px;
+	height: 38px !important;
+	padding: 3px 8px !important;
 }
 
 .lpeCElement.__myu-form_disclaimer__ {

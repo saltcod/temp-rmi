@@ -160,3 +160,11 @@ select.mktoField {
 .mktoLabel .mktoAsterix {
 	float: none !important
 }
+.input-confirmation-row .mktoFieldWrap {
+	flex-direction: column;
+}
+@media (min-width: 768px) {
+	.input-confirmation-row .mktoFieldWrap {
+		flex-direction: row;
+	}
+}

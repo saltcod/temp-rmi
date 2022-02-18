@@ -8,10 +8,12 @@ document.addEventListener("DOMContentLoaded", function() {
 	selects.forEach(select => {
 		select.addEventListener('change', () => {
 			// Add a wrapper to the row with the checkbox to aid with alignment
+			setTimeout(() => {
+				document.querySelector('input[type="checkbox"]').closest('.mktoFormRow').classList.add('input-confirmation-row')
+			}, 20);
 
 			setTimeout(() => {
 				window.parent.postMessage(document.body.scrollHeight, '*');
-				document.querySelector('input[type="checkbox"]').closest('.mktoFormRow').classList.add('input-confirmation-row')
 			}, 200);
 		})
 	});

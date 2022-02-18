@@ -152,6 +152,14 @@ select.mktoField {
 	width: 100% !important;
 }
 
+@media (max-width: 768px) {
+	.mktoFormRow.input-confirmation-row .mktoLabel {
+		margin-top: -25px;
+		margin-left: 20px;
+	}
+}
+
+
 .mktoLabel  {
 	float: none;
 	display: flex;
@@ -163,6 +171,12 @@ select.mktoField {
 .input-confirmation-row .mktoFieldWrap {
 	flex-direction: column;
 }
+@media (max-width: 768px) {
+	.input-confirmation-row {
+		margin-left: 30px;
+	}
+}
+
 @media (min-width: 768px) {
 	.input-confirmation-row .mktoFieldWrap {
 		flex-direction: row;

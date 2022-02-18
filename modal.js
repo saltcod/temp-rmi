@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	if ( selects.length < 0 ) {
 		return;
 	}
-	console.log(selects);
+
 	selects.forEach(select => {
 		select.addEventListener('change', () => {
 			setTimeout(() => {
@@ -12,4 +12,8 @@ document.addEventListener("DOMContentLoaded", function() {
 			}, 200);
 		})
 	});
+
+	// Select the input box and add a class to it's parent
+	document.querySelector('input[type="checkbox"]').closest('.mktoFormRow').classList.add('input-confirmation-row')
+
 });

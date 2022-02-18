@@ -139,3 +139,15 @@ select.mktoField {
 .lpeCElement.__myu-form_disclaimer__ {
 	max-width: none !important;
 }
+
+.mktoFormRow.input-confirmation-row .mktoCheckboxList {
+	align-items: center;
+	display: flex;
+	float: none;
+	margin-right: 50px;
+	order: -1;
+}
+
+.mktoFormRow.input-confirmation-row .mktoLabel {
+	width: 100% !important;
+}

@@ -176,7 +176,7 @@ select.mktoField {
 
 @media (max-width: 400px) {
 	.mktoFormRow.input-confirmation-row {
-		padding-left: 30px;
+		/* padding-left: 30px; */
 	}
 
 	.mktoFormRow.input-confirmation-row .mktoLabel {

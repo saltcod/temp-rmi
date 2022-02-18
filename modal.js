@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	selects.forEach(select => {
 		select.addEventListener('change', () => {
+			console.log('changed');
 			// Add a wrapper to the row with the checkbox to aid with alignment
 			setTimeout(() => {
 				document.querySelector('input[type="checkbox"]').closest('.mktoFormRow').classList.add('input-confirmation-row')

@@ -151,3 +151,12 @@ select.mktoField {
 .mktoFormRow.input-confirmation-row .mktoLabel {
 	width: 100% !important;
 }
+
+.mktoLabel  {
+	float: none;
+	display: flex;
+}
+
+.mktoLabel .mktoAsterix {
+	float: none !important
+}

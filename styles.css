@@ -65,6 +65,14 @@ body {
 .mktoLabel.mktoHasWidth {
 	width: 120px !important;
 }
+
+@media (max-width: 768px) {
+	.mktoLabel.mktoHasWidth {
+		padding-left: 10px;
+	}
+}
+
+
 .mktoForm .mktoFormCol {
 	float: none !important;
 }
@@ -133,7 +141,8 @@ select.mktoField {
 	appearance: none;
 	background: none;
 	font-size: 16px !important;
-	height: 43px !important;
+	height: 30px !important;
+	padding: 3px 8px;
 }
 
 .lpeCElement.__myu-form_disclaimer__ {

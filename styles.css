@@ -141,9 +141,16 @@ select.mktoField {
 	appearance: none;
 	background: none;
 	font-size: 16px !important;
-	height: 38px !important;
+	height: 30px !important;
 	padding: 3px 8px !important;
 }
+
+@media (min-width: 400px) {
+	select.mktoField {
+		height: 38px !important;
+	}
+}
+
 
 .lpeCElement.__myu-form_disclaimer__ {
 	max-width: none !important;

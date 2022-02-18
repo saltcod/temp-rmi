@@ -153,12 +153,15 @@ select.mktoField {
 }
 
 @media (max-width: 768px) {
+	.mktoFormRow.input-confirmation-row {
+		padding-left: 30px;
+	}
+
 	.mktoFormRow.input-confirmation-row .mktoLabel {
 		margin-top: -25px;
 		margin-left: 20px;
 	}
 }
-
 
 .mktoLabel  {
 	float: none;

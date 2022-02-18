@@ -139,6 +139,7 @@ select.mktoField {
 	-moz-appearance: none;
 	appearance: none;
 	background: none;
+	color: black;
 	font-size: 16px !important;
 	height: 30px !important;
 	padding: 3px 8px !important;

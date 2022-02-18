@@ -9,11 +9,12 @@ document.addEventListener("DOMContentLoaded", function() {
 		select.addEventListener('change', () => {
 			setTimeout(() => {
 				window.parent.postMessage(document.body.scrollHeight, '*');
+				document.querySelector('input[type="checkbox"]').closest('.mktoFormRow').classList.add('input-confirmation-row')
 			}, 200);
 		})
 	});
 
 	// Select the input box and add a class to it's parent
-	document.querySelector('input[type="checkbox"]').closest('.mktoFormRow').classList.add('input-confirmation-row')
+
 
 });

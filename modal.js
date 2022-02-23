@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		return;
 	}
 	console.log('after if');
+	console.log(selects);
 
 	selects.forEach(select => {
 		select.addEventListener('change', () => {

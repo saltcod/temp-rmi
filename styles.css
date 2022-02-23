@@ -159,6 +159,7 @@ select.mktoField {
 	align-items: center;
 	display: flex;
 	float: none;
+	margin-left: 5px;
 	margin-right: 50px;
 	order: -1;
 }
@@ -187,9 +188,9 @@ select.mktoField {
 }
 
 @media (max-width: 400px) {
-	.mktoFormRow.input-confirmation-row {
+	/* .mktoFormRow.input-confirmation-row {
 		padding-left: 10px;
-	}
+	} */
 
 	.mktoFormRow.input-confirmation-row .mktoLabel {
 		/* margin-top: -25px;

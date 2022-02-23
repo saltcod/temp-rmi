@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
-	console.log('loaded');
+
 	const selects = document.querySelectorAll('.mktoFormRow select');
 
 	if ( selects.length < 0 ) {
 		return;
 	}
-	console.log('after if');
-	console.log(selects);
+
+	console.log(selects); // sometimes this is: [node, node], sometimes is []
 
 	selects.forEach(select => {
 		select.addEventListener('change', () => {
@@ -22,7 +22,12 @@ document.addEventListener("DOMContentLoaded", function() {
 		})
 	});
 
-	// Select the input box and add a class to it's parent
+	// listen for mutations on the .mktoContent container
+	MktoForms2.whenReady(function (form) {
+		const selects = document.querySelectorAll('.mktoFormRow select');
+		console.log(selects);
+	});
+
 
 
 });

@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	// listen for mutations on the .mktoContent container
 	MktoForms2.whenReady(function (form) {
+		console.log('hay');
 		const selects = document.querySelectorAll('.mktoFormRow select');
 		console.log(selects);
 	});
